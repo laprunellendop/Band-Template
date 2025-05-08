@@ -3,45 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Template16.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Band template</title>
+    <style>
+        body {font-family: "Lato", sans-serif}
+    </style>
 </head>
 <body>
     <nav class="top">
          <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">BAND</a></li>
-            <li><a href="">TOUR</a></li>
-            <li><a href="">CONTACT</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#band">BAND</a></li>
+            <li><a href="#tour">TOUR</a></li>
+            <li><a href="#contact">CONTACT</a></li>
             <li>
-                <a href="">MORE</a>
+                <a href="">MORE <i class="fa-solid fa-caret-down"></i></a>
                 <ul class="dropdown">
                     <li><a href="">Merchandise</a></li>
                     <li><a href="">Extra</a></li>
                     <li><a href="">Media</a></li>
                 </ul>
             </li>
+            <li class="right"><a href="" class="red-hover"><i class="fa-solid fa-magnifying-glass"></i></a></li>
          </ul>
     </nav>
+    <nav class="top" id="top">
+        <ul>
+           <li><a href="#">HOME</a></li>
+           <li class="right"><a href=""><i class="fa-solid fa-bars"></i></a></li>
+        </ul>
+   </nav>
     <header>
-        <div>
+        <div class="display-container center">
             <img src="images/chicago.jpg" alt="" style="width: 100%;" class="image">
-            <div>
-
+            <div class="text-white padding-32 container display-bottommiddle">
+                <h3>Chicago</h3>
+                <p><b>Thank you, Chicago - A night we won't forget.</b></p>
             </div>
         </div>
-        <div>
+        <div class="display-container center">
             <img src="images/la.jpg" alt="" style="width: 100%;" class="image">
-            <div>
-                
+            <div class="text-white padding-32 container display-bottommiddle">
+                <h3>Los Angeles</h3>
+                <p><b>We had the best time playing at Venice Beach!</b></p>
             </div>
         </div>
-        <div>
+        <div class="display-container center">
             <img src="images/ny.jpg" alt="" style="width: 100%;" class="image">
-            <div>
-                
+            <div class="text-white padding-32 container display-bottommiddle">
+                <h3>New York</h3>
+                <p><b>The atmosphere in New York is lorem ipsum.</b></p>
             </div>
         </div>
     </header>
+    <div class="padding-64 container white center content"  style="max-width: 800px;" id="band">
+        <h2 class="wide">THE BAND</h2>
+        <p class="opacity"><i>We love music</i></p>
+        <p class="justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="row padding-32">
+            <div class="third">
+                <p>Name</p>
+                <img src="images/bandmember.jpg" alt="" style="width: 60%;" class="margin-bottom border-radius">
+            </div>
+            <div class="third">
+                <p>Name</p>
+                <img src="images/bandmember.jpg" alt="" style="width: 60%;" class="margin-bottom border-radius">
+            </div>
+            <div class="third">
+                <p>Name</p>
+                <img src="images/bandmember.jpg" alt="" style="width: 60%;" class="margin-bottom border-radius">
+            </div>
+        </div>
+    </div>
+    <div class="black">
+        <div class="padding-64 container content" style="max-width: 800px;" id="tour">
+            <h2 class="wide center">TOUR DATES</h2>
+            <p class="opacity center"><i>Remember to book your tickets!</i></p>
+            <ul class="ul border white text-grey">
+                <li class="border-bottom padding">September <span class="red tag margin-left">Sold Out</span></li>
+                <li class="border-bottom padding">October <span class="red tag margin-left">Sold Out</span></li>
+                <li class="border-bottom padding">November <span class="right badge margin-right">3</span></li>
+            </ul>
+            <div class="padding-32 row-padding" style="margin: 0 -16px;">
+                <div class="third margin-bottom">
+                    <img src="images/newyork.jpg" alt="" width="100%" class="hover-opacity">
+                    <div class="white container">
+                        <p><b>New York</b></p>
+                        <p class="opacity">Fri 27 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="black button margin-bottom">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="third margin-bottom">
+                    <img src="images/paris.jpg" alt="" width="100%" class="hover-opacity">
+                    <div class="white container">
+                        <p><b>Paris</b></p>
+                        <p class="opacity">Sat 28 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="black button margin-bottom">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="third margin-bottom">
+                    <img src="images/sanfran.jpg" alt="" width="100%" class="hover-opacity">
+                    <div class="white container">
+                        <p><b>New York</b></p>
+                        <p class="opacity">Sun 29 Nov 2016</p>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button class="black button margin-bottom">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div class="white padding-64 content" style="max-width: 800px;" id="contact">
+        <h2 class="center wide ">CONTACT</h2>
+        <p class="center opacity"><i>Fan? Drop a note!</i></p>
+        <div class="row padding-32 container">
+            <div class="half large">
+                <i class="fa-solid fa-location-dot" style="width: 30px;"></i> Chicago, US <br>
+                <i class="fa-solid fa-phone" style="width: 30px;"></i> Phone: +00 151515 <br>
+                <i class="fa-solid fa-envelope" style="width: 30px;"></i>  Email: mail@mail.com
+            </div>
+            <div class="half">
+                <form action="">
+                    <div class="row-padding" style="margin: 0 -16px 8px -16px;">
+                        <div class="half">
+                            <input type="text" placeholder="Name" class="border input">
+                        </div>
+                        <div class="half">
+                            <input type="text" placeholder="Email" class="border input">
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Message" class="border input">
+                    <button class="right button black section">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <img src="images/map.jpg" alt="" class="image grayscale-min" style="width:100%">
+    <footer class="container padding-64 opacity xlarge light-grey center">
+            <i class="fa-brands fa-square-facebook hover-opacity"></i>
+            <i class="fa-brands fa-instagram hover-opacity"></i>
+            <i class="fa-brands fa-square-snapchat hover-opacity"></i>
+            <i class="fa-brands fa-pinterest-p hover-opacity"></i>
+            <i class="fa-brands fa-twitter hover-opacity"></i>
+            <i class="fa-brands fa-linkedin-in hover-opacity"></i>
+            <p class="medium">Powered by <a href="">w3.css</a></p>
+    </footer>
 </body>
 </html>

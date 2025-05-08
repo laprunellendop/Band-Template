@@ -16,7 +16,7 @@ nav li{
 }
 nav a{
     display: block;
-    padding: 8px 16px;
+    padding: 12px 24px;
     text-decoration: none;
     color: white;
     background-color: black;
@@ -54,13 +54,228 @@ nav li:hover ul.dropdown{
     max-width: 100%;
     height: auto;
 }
+img{
+    vertical-align: middle;
+}
 nav ul::after{
     content: "";
     display: table;
     clear: both;
 }
+.right{
+    float: right;
+}
+.red-hover:hover{
+    background-color: #f44336!important;
+    color: white;
+}
+.display-container{
+    position: relative;
+}
+.center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+.padding-32{
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+}
+.container{
+    padding: 0 16px;
+}
+.padding-64{
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+.white{
+    background-color: white!important;
+    color: black!important;
+}
+.black{
+    background-color: black;
+    color: #fff!important;
+}
+.display-bottommiddle{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0%);
+}
+.content{
+    margin-left: auto;
+    margin-right: auto;
+}
+.wide{
+    letter-spacing: 4px;
+}
+.opacity{
+    opacity: 0.6;
+}
+.justify{
+    text-align:justify!important;
+}
+h3{
+    font-size: 24px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    margin: 15px 0;
+}
+.third{
+    float: left;
+    width: 100%;
+}
+.row::after,.row::before,.row-padding::after,.row-padding::before,.container::after,.container::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.border{
+    border: 1px solid #ccc;
+}
+.text-grey{
+    color: #757575!important;
+}
+.border-bottom{
+    border-bottom: 1px solid #ddd;
+}
+.padding{
+    padding: 8px 16px!important;
+}
+.red{
+    color: #fff!important;
+    background-color: #f44336!important;
+}
+.tag{
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.margin-left{
+    margin-left: 16px;
+}
+.margin-right{
+    margin-right: 16px;
+}
+.margin-bottom{
+    margin-bottom: 16px!important;
+}
+.border-radius{
+    border-radius: 4px;
+}
+.right{
+    float: right;
+}
+.badge{
+    display: inline-block;
+    color: #fff;
+    background-color: black;
+    border-radius: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.row-padding{
+    padding: 0 8px;
+}
+.row-padding > .third{
+    padding: 0 8px;
+}
+.row-padding > .half{
+    padding: 0 8px;
+}
+.button{
+    font: inherit;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+
+}
+.input{
+    padding: 8px;
+    font: inherit;
+    width: 100%;
+    display: block;
+    
+}
+.half{
+    width: 100%;
+    float: left;
+}
+.large{
+    font-size: 18px!important;
+}
+.xlarge{
+    font-size: 24px!important;
+}
+.medium{
+    font-size: 15px;
+}
+.section{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.grayscale-min{
+    filter: grayscale(0.5);
+}
+.light-grey{
+    background-color: #f1f1f1!important;
+    color: black!important;
+}
+a{
+    color: inherit;
+}
+.hover-opacity:hover{
+    opacity: 0.6;
+}
+#top{
+    display: block;
+}
+@media screen and (min-width:601px) {
+    .third{
+        width: 33.3333%;
+    }
+    .half{
+        width: 50%;
+    }
+}
+@media screen and (min-width:601px) {
+    .third{
+        width: 33.3333%;
+    }
+    .half{
+        width: 50%;
+    }
+    #top{
+        display: none;
+    }
+}
+@media screen and (max-width:601px){
+    .top{
+        display: none;
+    }
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-size: 15px;
+}
+h1,h2,h3{
+    font-weight: 400;
+    margin: 10px 0;
 }
